@@ -63,11 +63,9 @@ project-folder
 You can add a screenshot here.  
 For example:
 
-```
 <img width="565" height="465" alt="image" src="https://github.com/user-attachments/assets/63f06cd6-f216-421c-82c6-c21696416ee3" />
 
 
-```
 
 (Just replace the image path with the correct one)
 
