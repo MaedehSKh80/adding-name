@@ -1,8 +1,6 @@
-حتماً 
-
 # 📌 README
 
-```markdown
+markdown
 # 📝 Simple To-Do List
 
 This is a small **To-Do List project** that I originally created about **two years ago** while I was learning the basics of **HTML, CSS, and JavaScript**.
@@ -88,6 +86,3 @@ For example:
 This project is simple, but I’m keeping it in my GitHub as a reminder of how I started and how my skills have grown over time.  
 Old code is not something to throw away — it’s something to improve.
 
-```
-
---
