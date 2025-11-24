@@ -1,6 +1,5 @@
 # 📌 README
 
-markdown
 # 📝 Simple To-Do List
 
 This is a small **To-Do List project** that I originally created about **two years ago** while I was learning the basics of **HTML, CSS, and JavaScript**.
