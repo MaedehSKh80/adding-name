@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-list {
+  list-style: none;
+  padding: 0;
+  width: 250px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.name-list li {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.name-list li:last-child {
+  border-bottom: none;
+}
+
+.list-input {
+  padding: 10px 14px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.addListButton {
+  padding: 10px 16px;
+  background: #4a7dfc;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.addListButton:hover {
+  background: #3b68d4;
+}

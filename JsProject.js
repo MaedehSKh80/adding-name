@@ -1,12 +1,12 @@
-window.onload = function () {
-  let userList = document.querySelectorAll(".name-list");
-  let listInput = document.querySelector(".list-input");
-  let btn = document.querySelector(".addListButtun");
-  btn.addEventListener("click", function () {
-    const newUser = document.createElement("li");
-    const name = document.createTextNode(listInput.value);
-    newUser.appendChild(name);
-    userList.appendChild(newUser);
-    listInput.value = " ";
-  });
-};
+
+const newnameel = document.querySelector(".list-input");
+const btnnewName = document.querySelector(".addListButton");
+
+btnnewName.addEventListener("click", addfunc);
+
+function addfunc() {
+  const newname = newnameel.value; 
+  const el = `<li>${newname}</li>`;
+  document.querySelector("ul").insertAdjacentHTML("beforeend", el);
+  newnameel.value = ""; 
+}
